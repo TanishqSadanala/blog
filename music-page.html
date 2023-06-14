@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="startbar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>music-page</title>
+</head>
+<body>
+<header style="margin-top: 10px">
+    <h1 class="logo-name">Tanishq's Blog</h1>
+
+    <div class="dropdown">
+        <button onclick="show_hide()" class="threebutton" ></button>
+        <div id="dropdown-menu">
+            <a href="index.html">home</a>
+            <a href="blog-page.html">Blog</a>
+            <a href="music-page.html">Music</a>
+        </div>
+    </div>
+</header>
+<a style="text-decoration: none" href="about_page.html">
+<img class="profile-img-nothome" src="profile.png">
+</a>
+<a style="text-decoration: none" href="index.html">
+    <img class="profile-img-mobile" src="profile.png">
+</a>
+<div class="buttons">
+    <button  class="home-button">
+        <a style="text-decoration: none" href="index.html">
+            <span id="text-home">home</span>
+        </a>
+    </button>
+    <button class="blog-button">
+        <a style="text-decoration: none" href="blog-page.html">
+            <span id="text-blog">blog</span>
+        </a>
+    </button>
+    <button class="music-button">
+        <a style="text-decoration: none" href="music-page.html">
+            <span id="text-music">music</span>
+        </a>
+    </button>
+</div>
+<hr/>
+<div class="product-items">
+    <img class="sheet_pic" src="tag-1.png">
+    <img class="sheet_pic" src="ECOSSIASE.png">
+</div>
+<div class="product-download-button-layout">
+    <a href = "tag.pdf"
+       Download = "pdf">
+        <button class="download-product-buttons">dowload</button>
+    </a>
+    <a href = "ECOSSIASE.pdf"
+       Download = "pdf">
+        <button class="download-product-buttons">dowload</button>
+    </a>
+</div>
+<div class="audio-download">
+    <audio class="product-audio" controls src="tag.mp3">
+        <a href="tag.mp3">
+            Download audio
+        </a>
+    </audio>
+    <audio class="product-audio" controls src="y2mate.com%20-%20Ländler%20in%20F%20minor.mp3">
+        <a href="y2mate.com%20-%20Ländler%20in%20F%20minor.mp3">
+            Download audio
+        </a>
+    </audio>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

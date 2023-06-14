@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>blog-page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<header style="margin-top: 10px">
+    <h1 class="logo-name">Tanishq's Blog</h1>
+    <div class="dropdown">
+        <button onclick="show_hide()" class="threebutton" ></button>
+        <div id="dropdown-menu">
+            <a href="index.html">home</a>
+            <a href="blog-page.html">Blog</a>
+            <a href="music-page.html">Music</a>
+        </div>
+    </div>
+</header>
+<a style="text-decoration: none" href="about_page.html">
+<img class="profile-img-nothome" src="profile.png">
+</a>
+<a style="text-decoration: none" href="index.html">
+    <img class="profile-img-mobile" src="profile.png">
+</a>
+<div class="buttons">
+    <button  class="home-button">
+        <a style="text-decoration: none" href="index.html">
+        <span id="text-home">home</span>
+        </a>
+    </button>
+    <button class="blog-button">
+        <a style="text-decoration: none" href="blog-page.html">
+        <span id="text-blog">blog</span>
+        </a>
+    </button>
+    <button class="music-button">
+        <a style="text-decoration: none" href="music-page.html">
+        <span id="text-music">music</span>
+        </a>
+    </button>
+</div>
+
+<hr id="navbarline">
+<div class="scrollbox" >
+<div class="scrolllist">
+        <button data-id="day-1" onclick="Show_blogpost()"  class="button-text">june 5 2023</button>
+    <br>
+        <button data-id="day-2" onclick="Show_blogpost()"  class="button-text">5/26/2023</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+    <br>
+        <button onclick="Show_blogpost()" class="button-text">Title</button>
+
+</div>
+</div>
+<h4></h4>
+<div  class="blogpost-text" id="day-1">
+    <p>Title<br>tuesday<br> june 5 2023<br> ok.its been a while since I did stuff. mostly wasted 5,6 days. but hey, its not easy to name some dude laid-back. I am thinking of building a website, blog to be precise. lot of things and work to do. working on front stack and should figure out javascript and back stack. so lets see how much time does this take. will update you next time. its funny I am blogging to myself. maybe I’m schizophrenic</p>
+</div>
+<div  class="blogpost-text" id="day-2">
+    <p>5/26/2023<br>Title<br><br>past 3 weeks have been little rough. I recreated snake game(although badly), also recreated an old pizza hut website (front end). but doing these using c# is great but everyone including my parents are forcing me to learn machine learning and ai saying its the future. Its not a great word to use but I think that’s what is happening.
+
+        partly the reason being Iam very poor at coding. I must say, I kinda understood the algorithms well but syntaxes are very hard because use of new packages and modules. I know how to write a code in python but not in these specific areas.
+
+        so road maps have been changed and modified…
+
+        I will keep on learning how to make games… so I will make my way in deep Q learning…</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
